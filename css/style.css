@@ -113,6 +113,15 @@ section:nth-child(even){
 .header .navbar a:hover{
     color: var(--green);
 }
+#menu-btn{
+    font-size: 2.5rem;
+    border-radius: .5rem;
+    background: #eee;
+    color:var(--green);
+    padding: 1rem 1.5rem;
+    cursor: pointer;
+    display: none;
+}
 
 .home{
     
@@ -151,8 +160,6 @@ section:nth-child(even){
     padding: 1rem 0;
     margin-left: 90px;
 }
-
-
 
 .services .box-container{
     display: grid;
@@ -301,13 +308,14 @@ section:nth-child(even){
 }
 
 .book .row form{
-    flex:1 1 45rem;
+    flex:0.2 1 45rem;
     background: #fff;
     border:var(--border);
     box-shadow: var(--box-shadow);
     text-align: center;
     padding: 2rem;
     border-radius: .5rem;
+    margin-left: 40rem;
 }
 
 .book .row form h3{
@@ -327,14 +335,9 @@ section:nth-child(even){
     padding: 1rem;
 }
 
-
 .book .row form .btn{
     padding:1rem 4rem;
 }
-
-
-
-
 .footer .box-container{
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(22rem, 1fr));
@@ -380,7 +383,6 @@ section:nth-child(even){
 
 
 
-
 /* media queries  */
 @media (max-width:991px){
 
@@ -397,3 +399,4 @@ section:nth-child(even){
     }
 
 }
+

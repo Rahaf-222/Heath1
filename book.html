@@ -42,36 +42,18 @@
     </div>
 </section>
 <section class="book" id="book">
-
-   
-
-    <div class="row">
-
-        <div class="image">
-            <img src="image/doc-3-r.png" alt="doctor" width="300px" height="500px">
-        </div>
-
-        <form action="">
-            <h3>book appointment</h3>
-            <input type="text" placeholder="your name" class="box">
-            <input type="number" placeholder="your number" class="box">
-            <input type="email" placeholder="your email" class="box">
-            <select class="box" >
-              <option value="teeth">teeth</option>
-              <option value="Dermatology">Dermatology</option>
-              <option value="Nose">Nose, ear and throat</option>
-              <option value="Esoteric">Esoteric</option>
-            </select>
-            <select class="box">
-                <option value="Doctors">Doctors</option>
-                <option value="Mohammad">Mohammad</option>
-                <option value="Khaled">Khaled</option>
-                <option value="Ali">Ali</option>
-                <option value="yasser">yasser</option>
-              </select>
-              <input type="date" class="box">
-            <input type="submit" value="book now" class="btn">
-        </form>
+        <div class='row'>
+            <form method='POST'>
+                    <h3> for booking </h3>
+                  
+                    <input type="text" name="id" id='id' placeholder="ID number" class="box"><br>
+                    <input type="text" name="name" id='name'  placeholder="name" class="box"><br>
+                    <input type="text" name="phone" id='phone'  placeholder="Phone number" class="box">
+                    <input type="text" name="address" id='address' class="box"  placeholder="address" >
+                    <input type="date" class="box">
+                    <button name="add" class="btn">add</button>
+                    <button name="del" class="btn">delete</button>   
+            </form>
     </div>
 </section>
 
