@@ -51,7 +51,7 @@
             <img src="image/doc-3-r.png" alt="doctor" width="300px" height="500px">
         </div>
 
-        <form action="index.php" method="post">
+        <form action="book.php" method="post">
             <h3>book appointment</h3>
             <input type="text" placeholder="your name" name="name" class="box">
             <input type="number" placeholder="your number" name="phone" class="box">
